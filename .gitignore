@@ -1,0 +1,31 @@
+# Python virtual environments
+.venv/
+venv/
+backend/.venv/
+backend/.venv311/
+backend/venv/
+
+# Python generated files
+__pycache__/
+*.pyc
+*.pyo
+
+# React / Node generated files
+frontend/node_modules/
+frontend/dist/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Editor and system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Do not upload the old tomato-only backup model
+backend/models/tomato_v1_backup/
+
+# Safe local backup of previous Git history
+/.git_backup/
